@@ -19,3 +19,9 @@ Compilers don't allow to subtract hex, therefore the engine subtracts it via int
 Our final value will be `2F3F230` or in better usage, `0x02F3F230`, and that will be our final result.
 
 # Usage for Rebasing?
+
+Lua - First line 'address', replace with decimal format address and run 'magic()'.
+
+C# - Jump to function 'Rebase', 1st argument with decimal format address and run.
+
+C++ - Line 7 or 0x333F230 must be replaced with a hex or decimal format address.
